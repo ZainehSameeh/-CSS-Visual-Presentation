@@ -1,0 +1,15 @@
+.card {
+	background-color: lightblue;
+	width: 200px;
+	height: 150px;
+	text-align: center;
+	transition: background-color 0.9s ease;
+}
+
+.card:hover {
+	background-color: lime;
+	width: 150px;
+	height: 100px;
+	transform: translateY(-8px);
+	transform: scale(1.05);
+}

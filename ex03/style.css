@@ -1,0 +1,23 @@
+.Palette-container {
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+}
+
+.colors {
+	color: darkblue;
+	background-color: grey;
+	opacity: 0.3;
+}
+
+.hex {
+	color: #ff0000;
+}
+
+.rgbt {
+	color: rgb(0, 200, 0);
+}
+
+.alpha {
+	color: rgba(0, 0, 180, 0.5);
+}

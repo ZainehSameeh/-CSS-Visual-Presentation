@@ -1,0 +1,19 @@
+.loader {
+	width: 200px;
+	height: 150px;
+	background-color: blue;
+	font-size: 30px;
+	text-align: center;
+	animation-name: box;
+	animation-duration: 2s;
+	animation-iteration-count: 2;
+}
+
+@keyframes box {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
